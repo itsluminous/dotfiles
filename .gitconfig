@@ -1,0 +1,32 @@
+[user]
+	email = 24225487+itsluminous@users.noreply.github.com
+	name = Prakash
+
+[color]
+	ui = true
+[filter "lfs"]
+	clean = git-lfs clean -- %f
+	smudge = git-lfs smudge -- %f
+	process = git-lfs filter-process
+	required = true
+[alias]
+	lo = log --oneline
+	st = status
+	hist = log --pretty=format:'%h %ad | %s%d [%an]' --graph --date=short
+[log]
+  date = format:%Y-%m-%d %H:%M
+[format]
+  pretty = format:%C(yellow)%h %C(cyan)%>(12)%ad %Cred%d %Creset%s %Cgreen%<(19)%aN
+[core]
+	excludesfile = /Users/prakash_kumar-bng/.gitignore_global
+	editor = code --wait
+[difftool "sourcetree"]
+	cmd = opendiff \"$LOCAL\" \"$REMOTE\"
+	path = 
+[mergetool "sourcetree"]
+	cmd = /Applications/Sourcetree.app/Contents/Resources/opendiff-w.sh \"$LOCAL\" \"$REMOTE\" -ancestor \"$BASE\" -merge \"$MERGED\"
+	trustExitCode = true
+[commit]
+	template = /Users/prakash_kumar-bng/.stCommitMsg
+[credential]
+	helper = cache --timeout=3600
