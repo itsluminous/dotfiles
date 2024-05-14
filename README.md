@@ -19,6 +19,8 @@
 - [miniconda](https://docs.anaconda.com/free/miniconda/miniconda-install/)
 - [Jupyter](https://jupyter.org/install)
 - [vscode](https://code.visualstudio.com/docs/setup/mac)
+- [IntelliJ Idea CE](https://www.jetbrains.com/idea/download/?fromIDE=&section=mac)
+- [Docker](https://www.docker.com/products/docker-desktop/)
 ---
 - [itsycal](https://www.mowglii.com/itsycal/)
 - [maccy](https://github.com/p0deje/Maccy?tab=readme-ov-file#install)
@@ -30,3 +32,7 @@
 - [zsh-syntax-highlighting](https://github.com/zsh-users/zsh-syntax-highlighting/blob/master/INSTALL.md#oh-my-zsh)
 - [autojump](https://github.com/wting/autojump)
 - [cmdtime](https://github.com/tom-auger/cmdtime)
+
+## Other softwares
+- [MS Office](https://massgrave.dev/unsupported_products_activation.html)
+- [VLC](http://www.videolan.org/vlc/index.html)
