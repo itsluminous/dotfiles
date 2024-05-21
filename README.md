@@ -26,6 +26,9 @@
 - [maccy](https://github.com/p0deje/Maccy?tab=readme-ov-file#install)
 - [amphetamine](https://apps.apple.com/us/app/amphetamine/id937984704)
 - [android file transfer](https://www.android.com/filetransfer/)
+---
+- [Open in iTerm action](QuickActions/Open%20in%20iTerm.workflow/)
+- [Open in VS Code action](QuickActions/Open%20with%20VS%20Code.workflow/)
 
 ## Oh my zsh plugins
 - [zsh-autosuggestions](https://github.com/zsh-users/zsh-autosuggestions)
@@ -36,3 +39,11 @@
 ## Other softwares
 - [MS Office](https://massgrave.dev/unsupported_products_activation.html)
 - [VLC](http://www.videolan.org/vlc/index.html)
+
+## [Java](https://github.com/halcyon/asdf-java)
+- ``asdf plugin-add java``
+- ``asdf list-all java openjdk``
+- ``asdf install java openjdk-22.0.1``
+- ``asdf global java openjdk-22.0.1``
+- ``. ~/.asdf/plugins/java/set-java-home.zsh``
+- ``echo 'java_macos_integration_enable=yes' >> ~/.asdfrc``
