@@ -24,8 +24,9 @@
 ---
 - [itsycal](https://www.mowglii.com/itsycal/)
 - [maccy](https://github.com/p0deje/Maccy?tab=readme-ov-file#install)
-- [amphetamine](https://apps.apple.com/us/app/amphetamine/id937984704)
+- [KeepingYouAwake](https://github.com/newmarcel/KeepingYouAwake)
 - [android file transfer](https://www.android.com/filetransfer/)
+- [stats](https://github.com/exelban/stats)
 ---
 - [Open in iTerm action](QuickActions/Open%20in%20iTerm.workflow/)
 - [Open in VS Code action](QuickActions/Open%20with%20VS%20Code.workflow/)
