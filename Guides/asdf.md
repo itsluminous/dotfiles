@@ -1,6 +1,13 @@
 ## Installation
 - Follow [this](https://asdf-vm.com/guide/getting-started.html)
 
+## [Setup python](https://github.com/asdf-community/asdf-python)
+- ``asdf plugin-add python``
+- ``asdf list-all python``
+- ``asdf install python latest``
+- ``asdf global python latest``
+- ``asdf reshim python``   <-- whenever any module is installed via pip
+
 ## [Setup java](https://github.com/halcyon/asdf-java)
 - ``asdf plugin-add java``
 - ``asdf list-all java openjdk``
