@@ -22,6 +22,10 @@
 - [IntelliJ Idea CE](https://www.jetbrains.com/idea/download/?fromIDE=&section=mac)
 - [Docker](https://www.docker.com/products/docker-desktop/)
 ---
+- [tldr](https://formulae.brew.sh/formula/tldr)
+- [bat](https://github.com/sharkdp/bat?tab=readme-ov-file#installation)
+- [tree](https://formulae.brew.sh/formula/tree)
+---
 - [itsycal](https://www.mowglii.com/itsycal/)
 - [maccy](https://github.com/p0deje/Maccy?tab=readme-ov-file#install)
 - [KeepingYouAwake](https://github.com/newmarcel/KeepingYouAwake)
