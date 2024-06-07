@@ -55,6 +55,19 @@ alias howto='how2'
 alias mirror='scrcpy -b2M -m800 --max-fps 15 --turn-screen-off --always-on-top &'
 alias calsync='f() { launchctl stop com.apple.CalendarAgent; launchctl start com.apple.CalendarAgent };f'
 
+# Automatically ls when changing directory
+cd() {
+  builtin cd "$@" && ll
+}
+
+# Misc
+alias jctl="journalctl -p 3 -xb"
+alias mkdir='mkdir -p -v'
+alias cp='cp -av -i'
+alias mv='mv -v -i'
+alias rm='rm -v -d'
+alias df='df -h'
+
 export NVM_DIR="$HOME/.nvm"
 [ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"  # This loads nvm
 [ -s "$NVM_DIR/bash_completion" ] && \. "$NVM_DIR/bash_completion"  # This loads nvm bash_completion
