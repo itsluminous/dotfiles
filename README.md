@@ -31,6 +31,7 @@
 - [KeepingYouAwake](https://github.com/newmarcel/KeepingYouAwake)
 - [android file transfer](https://www.android.com/filetransfer/)
 - [stats](https://github.com/exelban/stats)
+- [Gifski](https://github.com/sindresorhus/Gifski)
 ---
 - [Open in iTerm action](QuickActions/Open%20in%20iTerm.workflow/)
 - [Open in VS Code action](QuickActions/Open%20with%20VS%20Code.workflow/)
