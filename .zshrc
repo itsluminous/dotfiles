@@ -1,11 +1,19 @@
+# Enable Powerlevel10k instant prompt. Should stay close to the top of ~/.zshrc.
+# Initialization code that may require console input (password prompts, [y/n]
+# confirmations, etc.) must go above this block; everything else may go below.
+if [[ -r "${XDG_CACHE_HOME:-$HOME/.cache}/p10k-instant-prompt-${(%):-%n}.zsh" ]]; then
+  source "${XDG_CACHE_HOME:-$HOME/.cache}/p10k-instant-prompt-${(%):-%n}.zsh"
+fi
+
 # Path to your oh-my-zsh installation.
 export ZSH="$HOME/.oh-my-zsh"
 
 # See https://github.com/ohmyzsh/ohmyzsh/wiki/Themes
-ZSH_THEME="robbyrussell"
+# ZSH_THEME="robbyrussell"
+ZSH_THEME="powerlevel10k/powerlevel10k"
 
 # Add wisely, as too many plugins slow down shell startup.
-plugins=(cmdtime brew docker-compose docker dotnet asdf git zsh-autosuggestions zsh-syntax-highlighting autojump)
+plugins=(git autojump zsh-autosuggestions zsh-syntax-highlighting)
 
 source $ZSH/oh-my-zsh.sh
 
@@ -27,7 +35,6 @@ alias ga='git add .'
 alias gcObsolete='f() {git commit -m "<$1> | $2 | <$3>"};f'
 alias gpu='f() { branch=$(git rev-parse --abbrev-ref HEAD); git push --set-upstream origin $branch};f'
 alias gpf='f() { branch=$(git rev-parse --abbrev-ref HEAD); git push -f --set-upstream origin $branch};f'
-alias bu='git commit -m "Berks update"'
 
 #gitlab aliases
 alias glabmr='f() { paramcount=$#;message=$1;branch=$2;if [ "$paramcount" -lt "2" ];then branch="master";fi;if [ "$paramcount" -lt "1" ];then message="This is a test MR";fi;glab mr create -b $branch -t $message -y;};f'
@@ -39,12 +46,6 @@ alias dpa='docker ps -a'
 alias ds='docker ps -f "status=exited"'
 alias drp='docker restart proxy'
 alias dl='f() { docker logs -f $1; };f'
-
-#jump directory aliases
-alias jp='j pr-main'
-alias jc='j client'
-alias jf='j frontend'
-alias je='j etl-engine'
 
 #other custom aliases
 alias cls='clear'
@@ -68,6 +69,8 @@ alias mv='mv -v -i'
 alias rm='rm -v -d'
 alias df='df -h'
 
-export NVM_DIR="$HOME/.nvm"
-[ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"  # This loads nvm
-[ -s "$NVM_DIR/bash_completion" ] && \. "$NVM_DIR/bash_completion"  # This loads nvm bash_completion
+# To customize prompt, run `p10k configure` or edit ~/.p10k.zsh.
+[[ ! -f ~/.p10k.zsh ]] || source ~/.p10k.zsh
+
+# iterm extras, like catimg
+test -e "${HOME}/.iterm2_shell_integration.zsh" && source "${HOME}/.iterm2_shell_integration.zsh"
