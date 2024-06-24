@@ -1,5 +1,5 @@
 [user]
-	email = 24225487+itsluminous@users.noreply.github.com
+	email = foo@gmail.com
 	name = Prakash
 
 [color]
@@ -18,7 +18,7 @@
 [format]
   pretty = format:%C(yellow)%h %C(cyan)%>(12)%ad %Cred%d %Creset%s %Cgreen%<(19)%aN
 [core]
-	excludesfile = /Users/prakash_kumar-bng/.gitignore_global
+	excludesfile = /Users/prakash/.gitignore_global
 	editor = code --wait
 [difftool "sourcetree"]
 	cmd = opendiff \"$LOCAL\" \"$REMOTE\"
@@ -27,6 +27,6 @@
 	cmd = /Applications/Sourcetree.app/Contents/Resources/opendiff-w.sh \"$LOCAL\" \"$REMOTE\" -ancestor \"$BASE\" -merge \"$MERGED\"
 	trustExitCode = true
 [commit]
-	template = /Users/prakash_kumar-bng/.stCommitMsg
+	template = /Users/prakash/.stCommitMsg
 [credential]
 	helper = cache --timeout=3600
