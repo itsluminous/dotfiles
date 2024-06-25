@@ -22,6 +22,10 @@ alias stopgp='launchctl unload /Library/LaunchAgents/com.paloaltonetworks.gp.pan
 alias startgp='launchctl load /Library/LaunchAgents/com.paloaltonetworks.gp.pangp*'
 alias restartgp='f() { stopgp; startgp; };f'
 
+# start a tmux session, or link existing one
+export INSTANCE=i-01234abcd780
+alias sshtmux='ssh ubuntu@$INSTANCE -t '\''tmux has-session -t ${USER}_session 2>/dev/null || tmux new-session -d -s ${USER}_session; tmux attach-session -t ${USER}_session'\'
+
 #git commit format
 alias gc='f() { paramcount=$#;message=$1;author=$2;branch=$3;if [ "$paramcount" -lt "3" ];then branch=$(git rev-parse --abbrev-ref HEAD);fi;if [ "$paramcount" -lt "2" ];then author="Prakash";fi;if [ "$paramcount" -lt "1" ];then message="This is a test commit";fi;git commit -m "<$branch> | $message | <$author>";};f'
 alias gcn='f() { paramcount=$#;message=$1;author=$2;branch=$3;if [ "$paramcount" -lt "3" ];then branch=$(git rev-parse --abbrev-ref HEAD);fi;if [ "$paramcount" -lt "2" ];then author="Prakash";fi;if [ "$paramcount" -lt "1" ];then message="This is a test commit";fi;git commit -m "<$branch> | $message | <$author>" -n;};f'
