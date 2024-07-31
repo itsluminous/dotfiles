@@ -13,6 +13,7 @@
 	lo = log --oneline
 	st = status
 	hist = log --pretty=format:'%h %ad | %s%d [%an]' --graph --date=short
+	recent = for-each-ref --count=10 --sort=-committerdate refs/heads/ --format=\"%(refname:short)\"
 [log]
   date = format:%Y-%m-%d %H:%M
 [format]
