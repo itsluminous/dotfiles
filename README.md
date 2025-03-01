@@ -35,6 +35,7 @@
 ---
 - [Open in iTerm action](QuickActions/Open%20in%20iTerm.workflow/)
 - [Open in VS Code action](QuickActions/Open%20with%20VS%20Code.workflow/)
+- [Shortcut to show/hide desktop icons](https://www.icloud.com/shortcuts/6e227c87723649408d73f712b13f3f63)
 
 ## Other softwares
 - [MS Office](https://massgrave.dev/unsupported_products_activation.html)
