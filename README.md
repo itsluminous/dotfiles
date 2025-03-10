@@ -38,5 +38,6 @@
 - [Shortcut to show/hide desktop icons](https://www.icloud.com/shortcuts/6e227c87723649408d73f712b13f3f63)
 
 ## Other softwares
-- [MS Office](https://massgrave.dev/unsupported_products_activation.html)
+- [Mos](https://github.com/Caldis/Mos/blob/master/README.enUS.md) - To fix mouse scroll direction
 - [VLC](http://www.videolan.org/vlc/index.html)
+- [MS Office](https://massgrave.dev/unsupported_products_activation.html)
