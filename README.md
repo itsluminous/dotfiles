@@ -16,23 +16,28 @@
 - [oh my zsh](Guides/oh-my-zsh.md)
 - [asdf](Guides/asdf.md)
 ---
+#### Development
 - [miniconda](https://docs.anaconda.com/free/miniconda/miniconda-install/)
 - [Jupyter](https://jupyter.org/install)
 - [vscode](https://code.visualstudio.com/docs/setup/mac)
 - [IntelliJ Idea CE](https://www.jetbrains.com/idea/download/?fromIDE=&section=mac)
 - [Docker](https://www.docker.com/products/docker-desktop/)
 ---
+#### Simplifying life
 - [tldr](https://formulae.brew.sh/formula/tldr)
 - [bat](https://github.com/sharkdp/bat?tab=readme-ov-file#installation)
 - [tree](https://formulae.brew.sh/formula/tree)
 ---
+#### Tools
 - [itsycal](https://www.mowglii.com/itsycal/)
 - [maccy](https://github.com/p0deje/Maccy?tab=readme-ov-file#install)
+- [hidden bar](https://github.com/dwarvesf/hidden)
 - [KeepingYouAwake](https://github.com/newmarcel/KeepingYouAwake)
 - [android file transfer](https://www.android.com/filetransfer/)
 - [stats](https://github.com/exelban/stats)
 - [Gifski](https://github.com/sindresorhus/Gifski)
 ---
+#### Quick actions
 - [Open in iTerm action](QuickActions/Open%20in%20iTerm.workflow/)
 - [Open in VS Code action](QuickActions/Open%20with%20VS%20Code.workflow/)
 - [Shortcut to show/hide desktop icons](https://www.icloud.com/shortcuts/6e227c87723649408d73f712b13f3f63)
